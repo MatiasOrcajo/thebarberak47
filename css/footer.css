@@ -1,0 +1,67 @@
+.footer {
+    height: 200px;
+    background-color: black;
+}
+
+@media(min-width:800px) {
+    .footerContainer {
+        padding-top: 2rem;
+        max-width: 70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.footerContainer {
+    padding-top: 1rem;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerText {
+    text-align: center;
+}
+
+.footerLogo img {
+    height: 100px;
+}
+
+.footerText p {
+    color: white;
+}
+
+.footerText p a {
+    text-decoration: underline;
+    color: white;
+}
+
+
+/* PROXIMAMENTE */
+
+.proximamente h1 {
+    margin: 0;
+    padding-top: 2rem;
+}
+
+.cart i {
+    font-size: 100px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.cart {
+    text-align: center;
+}
+
+@media(min-width:800px) {
+    .proximamente h1 {
+        text-align: center;
+        padding-top: 2rem;
+    }
+}

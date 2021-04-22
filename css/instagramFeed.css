@@ -1,0 +1,38 @@
+.instagramContainer {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.instagramFeed h1 {
+    margin: 0;
+    padding-top: 2rem;
+}
+
+.instagramFeed {
+    padding-bottom: 5rem;
+}
+
+@media (min-width:800px) {
+    .instagramFeed h1 {
+        text-align: center;
+        padding-top: 2rem;
+        margin: 0;
+    }
+}
+
+.instagramPosts {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+@media (max-width:800px) {
+    .instagramPosts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+}

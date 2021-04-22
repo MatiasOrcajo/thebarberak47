@@ -1,0 +1,43 @@
+.location h1 {
+    margin-bottom: 0;
+}
+
+.location img {
+    margin-bottom: 2rem;
+}
+
+.location {
+    padding-top: 2rem;
+}
+
+.schedule p {
+    font-size: 2rem;
+}
+
+.schedule p span {
+    font-weight: bold;
+}
+
+.schedule {
+    margin-bottom: 2rem;
+}
+
+@media(min-width: 800px) {
+    .location {
+        text-align: center;
+    }
+}
+
+.map {
+    height: 350px;
+    width: 100%;
+    background-color: grey;
+}
+
+@media(min-width: 800px) {
+    .map {
+        height: 450px;
+        width: 100%;
+        background-color: grey;
+    }
+}

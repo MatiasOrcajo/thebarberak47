@@ -1,0 +1,136 @@
+.staff {
+    margin-top: 2rem;
+}
+
+.staffSection {
+    margin-top: 2rem;
+}
+
+.staffSenorX p,
+.staffEzequiel p {
+    max-width: 250px;
+    text-align: center;
+}
+
+
+/* EZEQUIEL */
+
+.staffSection h1 {
+    margin-bottom: 0;
+}
+
+.ezequiel {
+    height: 350px;
+    width: auto;
+    display: block;
+    margin-top: 1rem;
+}
+
+.staffEzequiel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 1200px) {
+    .staffEzequiel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+    }
+    .staffEzequiel p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+    }
+    .staffSection h1 {
+        text-align: center;
+    }
+}
+
+.staffEzequiel h2 {
+    margin: 1rem 0 1rem 0;
+}
+
+
+/* SEÑOR X */
+
+.señorX {
+    height: 325px;
+    width: auto;
+    display: block;
+    margin-top: 1rem;
+}
+
+.staffSenorX {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 1200px) {
+    .staffSenorX {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+    }
+    .staffSenorX p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+    }
+    .staff {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+.staffSenorX h2 {
+    margin: 1rem 0 1rem 0;
+}
+
+
+/* foto del staf */
+
+.staff-image {
+    height: 200px;
+    margin-top: 2.4rem;
+}
+
+.staff-image img {
+    box-shadow: 0px 5px 30px;
+    width: 100%;
+    height: 250px;
+}
+
+@media(min-width: 800px) {
+    .staff-image {
+        height: 400px;
+        margin-top: 2.4rem;
+        display: flex;
+        justify-content: center;
+    }
+    .staff-image img {
+        box-shadow: 0px 5px 30px;
+        width: 600px;
+        height: 400px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .staff-image {
+        height: 600px;
+        margin-top: 2.4rem;
+        display: flex;
+        justify-content: center;
+    }
+    .staff-image img {
+        box-shadow: 0px 5px 30px;
+        width: 800px;
+        height: 555px;
+    }
+}

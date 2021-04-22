@@ -1,0 +1,88 @@
+.opinionContainer {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.opinion {
+    padding-top: 10rem;
+}
+
+.opinion h1 {
+    margin: 0;
+}
+
+.opinionSquare {
+    margin-top: 1rem;
+}
+
+@media (min-width: 800px) {
+    .opinion h1 {
+        margin: 0;
+        text-align: center;
+    }
+    .opinionSquare {
+        height: 177.3px;
+        width: 250px;
+        margin-top: 3rem;
+    }
+    .opinions {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.imageContainer {
+    height: 96px;
+    width: 96px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.imageContainer img {
+    height: 96px;
+    width: 96px;
+    background-color: #BC9668;
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid #BC9668;
+    margin: 0;
+    box-shadow: 0 9px 15px -8px #000
+}
+
+.pOpinion {
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+.starIconContainer img {
+    width: 16px;
+    height: 16px;
+    margin: .5rem 0 0rem 0;
+}
+
+@media (min-width: 1200px) {
+    .opinions {
+        display: flex;
+        justify-content: space-between;
+    }
+    .opinionSquare {
+        height: 221.66px;
+        width: 287.75px;
+        margin-top: 3rem;
+    }
+}
+
+@media (min-width: 1500px) {
+    .opinionSquare {
+        height: 266px;
+        width: 345.3px;
+        margin-top: 3rem;
+    }
+}
+
+
+/* MAPA */
+
+.map {
+    z-index: 9;
+}

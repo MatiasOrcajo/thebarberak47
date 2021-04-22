@@ -1,0 +1,60 @@
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+/* GSAP */
+
+
+/* index */
+
+.intro {
+    background: #0F161B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-slide {
+    background: #BC9668;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    transform: translateY(100%);
+}
+
+.intro-text {
+    color: #BC9668;
+    font-size: 2rem;
+}
+
+.intro-text span {
+    font-family: "Petit Formal Script", cursive;
+}
+
+.hide {
+    background: #0F161B;
+    overflow: hidden;
+}
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+}
